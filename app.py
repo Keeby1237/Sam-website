@@ -2,7 +2,7 @@ from flask import Flask, request, render_template_string
 from transformers import pipeline
 
 app = Flask(__name__)
-generator = pipeline("text-generation", model="your-hf-username/your-model")
+generator = pipeline("text-generation", model="Smilyai-labs/Sam-reason-A1")
 
 HTML = """
 <!DOCTYPE html>
